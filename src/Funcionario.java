@@ -3,7 +3,7 @@ public class Funcionario {
 
 	private String nome;
 	private String cpf;
-	protected double salario;
+	private double salario;
 	
 	/*Construtor padrão. Compilador gera automaticamente. 
 	public Funcionario()	{	

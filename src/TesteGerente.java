@@ -14,7 +14,8 @@ public class TesteGerente {
 
 		double salarioTotal = victor.getSalario() + victor.getBonificacao();
 
-		System.out.println("====================================================");
+		System.out.println("===================================================="
+				+ "=============================================================");
 		System.out.println(" NOME: 		" + victor.getNome());
 		System.out.println(" CPF: 		" + victor.getCpf());
 		System.out.println(" SALARIO FIXO: 	" + victor.getSalario() + " R$");
@@ -22,7 +23,8 @@ public class TesteGerente {
 		System.out.println(" SALARIO FINAL:	" + salarioTotal + " R$");
 
 		System.out.println("\n SENHA: 	" + autenticou);
-		System.out.println("====================================================");
+		System.out.println("===================================================="
+				+ "=============================================================");
 
 	}
 }
